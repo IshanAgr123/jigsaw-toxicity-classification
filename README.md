@@ -37,7 +37,7 @@ Evaluated on a held-out, stratified 20% test set (the natural 11.5:1 distributio
 | Accuracy  | 0.87                | 0.89  |
 | ROC-AUC   | 0.906               | 0.917 |
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 The LSTM beat the linear baseline on every metric, but only by a little (about +0.01 ROC-AUC), and it took much longer to train. For a production system the simpler and faster Logistic Regression would be a reasonable choice. More complexity does not always pay off.
 
